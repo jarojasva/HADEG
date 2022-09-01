@@ -10,7 +10,7 @@ Jorge Rojas-Vargas<sup>1</sup>, Hugo G. Castelán-Sánchez<sup>2</sup>, Liliana 
 
 ## Description
 
-The Hydrocarbon Aerobic Degradation Enzymes and Genes (HADEG) is a manually curated database containing sequences of experimentally validated enzymes and genes to be used for annotation purposes. Currently has 259 enzymes for petroleum hydrocarbon degradation, 160 for polymer degradation, and 32 for biosurfactant production (July 15, 2022). The database is updated regularly.
+The Hydrocarbon Aerobic Degradation Enzymes and Genes (HADEG) is a manually curated database containing sequences of experimentally validated proteins and genes to be used for annotation purposes. Currently has 259 proteins for petroleum hydrocarbon degradation, 160 for polymer degradation, and 32 for biosurfactant production (July 15, 2022). The database is updated regularly.
 
 ### 1. Seq_amino_acids
 
