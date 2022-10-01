@@ -1,4 +1,4 @@
-![HADEG](./HADEG_logo_.png) 
+![HADEG](./HADEG_logo.png) 
 
 # HADEG: A Curated Database of Hydrocarbon Aerobic Degradation Enzymes and Genes 
 
