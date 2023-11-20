@@ -14,7 +14,7 @@ The Hydrocarbon Aerobic Degradation Enzymes and Genes (HADEG) is a manually cura
 
 ## Recommended immplementation
 
-1- Install Proteinortho in your computer or server.
+1- Install Proteinortho software in your computer or server (https://anaconda.org/bioconda/proteinortho).
 
 2- Annotate your genome(s) using your preferred annotation software and save the resulting .faa file(s) in a designated directory.
 
