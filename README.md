@@ -21,9 +21,9 @@ The Hydrocarbon Aerobic Degradation Enzymes and Genes (HADEG) is a manually cura
 3- Download the "HADEG_protein_database_231119.faa" and place it in the same directory.
 
 4- Execute Proteinortho, comparing your .faa file(s) with the HADEG database: 
-
+```sh
 proteinortho Directory_with_proteomes/*.faa -identity=50 -conn=0.3 -project=Results_HADEG
-
+```
 5- Identify the orthologs to the HADEG database in the final TSV file.
 
 NOTE: Under update process.
@@ -62,6 +62,6 @@ Contains tables with degradation pathways, biodegradation production, and protei
 
 ## Citation
 
-Rojas-Vargas, J, Castelán-Sánchez, HG, Pardo-López, L (2023) HADEG: A Curated Database of Hydrocarbon Aerobic Degradation Enzymes and Genes. Computational Biology and Chemistry. DOI 10.1016/j.compbiolchem.2023.107966
+Rojas-Vargas, J, Castelán-Sánchez, HG, Pardo-López, L (2023) HADEG: A curated hydrocarbon aerobic degradation enzymes and genes database. Computational Biology and Chemistry. DOI 10.1016/j.compbiolchem.2023.107966
 
 https://www.sciencedirect.com/science/article/abs/pii/S1476927123001573?via%3Dihub
