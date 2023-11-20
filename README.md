@@ -15,10 +15,14 @@ The Hydrocarbon Aerobic Degradation Enzymes and Genes (HADEG) is a manually cura
 ## Recommended immplementation
 
 1- Install Proteinortho in your computer or server.
+
 2- Annotate your genome(s) using your preferred annotation software and save the resulting .faa file(s) in a designated directory.
+
 3- Download the "HADEG_protein_database_231119.faa" and place it in the same directory.
+
 4- Execute Proteinortho, comparing your .faa file(s) with the HADEG database: 
 proteinortho Directory_with_proteomes/*.faa -identity=50 -conn=0.3 -project=Results_HADEG
+
 5- Identify the orthologs to the HADEG database in the final TSV file.
 
 NOTE: Under update process.
