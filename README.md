@@ -38,7 +38,7 @@ Contains the amino acid sequences divided in hydrocarbon groups and biosurfactan
 - Alkenes
 - Aromatics
 - Biosurfactants
-- Polymers
+- Plastics
 
 ### 2. Seq_nucleotides
 
@@ -48,7 +48,7 @@ Contains the nucleotides sequences divided in hydrocarbon groups and biosurfacta
 - Alkenes
 - Aromatics
 - Biosurfactants
-- Polymers
+- Plastics
 
 ### 3. Tables
 
@@ -57,9 +57,10 @@ Contains tables with degradation pathways, biodegradation production, and protei
 - 1_Aerobic_alkane_degradation_pathways_and_genes
 - 2_Aerobic_alkene_degradation_pathways_and_genes
 - 3_Aerobic_aromatic_degradation_pathways_and_genes
-- 4_Polymer_degradation_pathways_and_genes
+- 4_Plastic_degradation_pathways_and_genes
 - 5_Biosurfactant_production_genes
 - 6_Protein_domains_of_HADEG_proteins
+- 7_All_pathways
 
 
 ## Citation
