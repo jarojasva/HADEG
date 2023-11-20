@@ -10,7 +10,18 @@ Jorge Rojas-Vargas<sup>1</sup>, Hugo G. Castelán-Sánchez<sup>2</sup>, Liliana 
 
 ## Description
 
-The Hydrocarbon Aerobic Degradation Enzymes and Genes (HADEG) is a manually curated database containing sequences of experimentally validated proteins and genes to be used for annotation purposes. Currently has 259 proteins for petroleum hydrocarbon degradation, 160 for polymer degradation, and 32 for biosurfactant production (July 15, 2022). The database is updated regularly.
+The Hydrocarbon Aerobic Degradation Enzymes and Genes (HADEG) is a manually curated database containing sequences of experimentally validated proteins and genes to be used for annotation purposes. The first version described in the published article had 259 proteins for hydrocarbon (HC) degradation, 160 for plastic degradation, and 32 for biosurfactant production (September, 2023). The updated database (November, 2023) had 416 for HC degradation, 190 for plastic degradation, and 36 for biosurfactant production. The database is updated regularly.
+
+## Recommended immplementation
+
+1- Install Proteinortho in your computer or server.
+2- Annotate your genome(s) using your preferred annotation software and save the resulting .faa file(s) in a designated directory.
+3- Download the "HADEG_protein_database_231119.faa" and place it in the same directory.
+4- Execute Proteinortho, comparing your .faa file(s) with the HADEG database: 
+proteinortho Directory_with_proteomes/*.faa -identity=50 -conn=0.3 -project=Results_HADEG
+5- Identify the orthologs to the HADEG database in the final TSV file.
+
+NOTE: Under update process.
 
 ### 1. Seq_amino_acids
 
@@ -46,6 +57,6 @@ Contains tables with degradation pathways, biodegradation production, and protei
 
 ## Citation
 
-Rojas-Vargas, J, Castelán-Sánchez, HG, Pardo-López, L (2022) HADEG: A Curated Database of Hydrocarbon Aerobic Degradation Enzymes and Genes. BioRxiv Preprint DOI 10.1101/2022.08.30.505856
+Rojas-Vargas, J, Castelán-Sánchez, HG, Pardo-López, L (2023) HADEG: A Curated Database of Hydrocarbon Aerobic Degradation Enzymes and Genes. Computational Biology and Chemistry. DOI 10.1016/j.compbiolchem.2023.107966
 
-https://www.biorxiv.org/content/10.1101/2022.08.30.505856v1
+https://www.sciencedirect.com/science/article/abs/pii/S1476927123001573?via%3Dihub
