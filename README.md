@@ -1,6 +1,6 @@
 ![HADEG](./logo_HADEG.png) 
 
-# HADEG: A Curated Database of Hydrocarbon Aerobic Degradation Enzymes and Genes 
+# HADEG: A Curated Hydrocarbon Aerobic Degradation Enzymes and Genes Database
 
 Jorge Rojas-Vargas<sup>1</sup>, Hugo G. Castelán-Sánchez<sup>2</sup>, Liliana Pardo-López<sup>1</sup>
 
