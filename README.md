@@ -22,7 +22,7 @@ The Hydrocarbon Aerobic Degradation Enzymes and Genes (HADEG) is a manually cura
 
 4- Execute Proteinortho, comparing your .faa file(s) with the HADEG database: 
 ```sh
-proteinortho Directory_with_proteomes/*.faa -identity=50 -conn=0.3 -project=Results_HADEG
+**proteinortho Directory_with_proteomes/*.faa -identity=50 -conn=0.3 -project=Results_HADEG**
 ```
 5- Identify the orthologs to the HADEG database in the final TSV file.
 
