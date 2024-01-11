@@ -49,9 +49,12 @@ This script will generate the following output tables:
 Differente versions of the "3_table_HADEG_final.tsv", depending on the "Compounds" found in your genomes: 4_A_Alkanes.tsv, 4_B_Alkenes.tsv, 4_C_Aromatics.tsv, 4_D_Biosurfactants.tsv, and 4_E_Plastics.tsv
 
 
-### B. Obtaining the HADEG plots
+### B. Generating the HADEG plots
 
-NOTE: Under update process.
+7- Run *2_generate_HADEG_plots* script in the same directory to generate SVG files of HADEG heatmap and bubble plots:
+```sh
+Rscript 2_generate_HADEG_plots.R
+```
 
 
 ## Description of this GitHub repository
