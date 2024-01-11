@@ -14,6 +14,8 @@ The Hydrocarbon Aerobic Degradation Enzymes and Genes (HADEG) is a manually cura
 
 ## Recommended immplementation
 
+### Extract the HADEG tables
+
 1- Install Proteinortho software in your computer or server (https://anaconda.org/bioconda/proteinortho).
 
 2- Annotate your genome(s) using your preferred annotation software and save the resulting .faa file(s) in a designated directory.
@@ -24,7 +26,23 @@ The Hydrocarbon Aerobic Degradation Enzymes and Genes (HADEG) is a manually cura
 ```sh
 proteinortho Directory_with_proteomes/*.faa -identity=50 -conn=0.3 -project=Results_HADEG
 ```
-5- Identify the orthologs to the HADEG database in the final TSV file.
+5- Download the **Script** directory and put your Results_HADEG.tsv file obtained with proteinortho. **NOTE**: do not change the ".faa" part of the proteomes names in your .tsv file.
+
+6- Run the *1_extract_HADEG_tables* script in the terminal or in RStudio
+```sh
+Rscript 1_extract_HADEG_tables.R
+```
+This script will generate the following output tables:
+
+GENERAL TABLES
+1_table_HADEG_codes.tsv : 
+2_table_HADEG_counts.tsv :
+3_table_HADEG_final.tsv :
+
+SPECIFIC TABLES
+4_A_Alkanes
+
+### Obtain the figures
 
 NOTE: Under update process.
 
