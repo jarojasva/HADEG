@@ -46,7 +46,7 @@ This script will generate the following output tables:
 
 *SPECIFIC TABLES*
 
-Differente versions of the "3_table_HADEG_final.tsv", if those "Compounds" were found in your genomes: 4_A_Alkanes.tsv, 4_B_Alkenes.tsv, 4_C_Aromatics.tsv, 4_D_Biosurfactants.tsv, and 4_E_Plastics.tsv
+Differente versions of the "3_table_HADEG_final.tsv", depending on the "Compounds" found in your genomes: 4_A_Alkanes.tsv, 4_B_Alkenes.tsv, 4_C_Aromatics.tsv, 4_D_Biosurfactants.tsv, and 4_E_Plastics.tsv
 
 
 ### Obtaining the figures
