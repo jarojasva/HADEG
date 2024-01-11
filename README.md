@@ -26,21 +26,31 @@ The Hydrocarbon Aerobic Degradation Enzymes and Genes (HADEG) is a manually cura
 ```sh
 proteinortho Directory_with_proteomes/*.faa -identity=50 -conn=0.3 -project=Results_HADEG
 ```
-5- Download the **Script** directory and put your Results_HADEG.tsv file obtained with proteinortho. **NOTE**: do not change the ".faa" part of the proteomes names in your .tsv file.
+5- Download the **Script** directory and put your there Results_HADEG.tsv file obtained with Proteinortho. **NOTE**: do not change the ".faa" part of the proteomes names in your .tsv Proteinortho file.
 
-6- Run the *1_extract_HADEG_tables* script in the terminal or in RStudio
+6- Run the *1_extract_HADEG_tables* script in your terminal or RStudio:
 ```sh
 Rscript 1_extract_HADEG_tables.R
 ```
 This script will generate the following output tables:
 
-GENERAL TABLES
-1_table_HADEG_codes.tsv : 
-2_table_HADEG_counts.tsv :
-3_table_HADEG_final.tsv :
+*GENERAL TABLES*
 
-SPECIFIC TABLES
+1_table_HADEG_codes.tsv : tabla con los códigos de las proteínas de tus .faa files ortólogas a las secuencias de proteínas de HADEG database.
+
+2_table_HADEG_counts.tsv : tabla con el número de proteínas de tus .faa files ortólogas a las secuencias de HADEG.
+
+3_table_HADEG_final.tsv : tabla with the summarized counts of each type of HADEG proteins, including the Mechanism, Compounds, Pathways, Subpathways, and Gene names.
+
+
+*SPECIFIC TABLES*
+
+Differente versions of the "3_table_HADEG_final.tsv", if those "Compounds" were found in your genomes:
 4_A_Alkanes
+4_B_Alkenes
+4_C_Aromatics
+4_D_Biosurfactants
+4_E_Plastics
 
 ### Obtain the figures
 
