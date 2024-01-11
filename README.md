@@ -15,7 +15,7 @@ The Hydrocarbon Aerobic Degradation Enzymes and Genes (HADEG) is a manually cura
 ## Recommended immplementation
 
 
-### Extracting the HADEG tables
+### A. Extracting the HADEG tables
 
 1- Install Proteinortho software in your computer or server (https://anaconda.org/bioconda/proteinortho).
 
@@ -49,7 +49,7 @@ This script will generate the following output tables:
 Differente versions of the "3_table_HADEG_final.tsv", depending on the "Compounds" found in your genomes: 4_A_Alkanes.tsv, 4_B_Alkenes.tsv, 4_C_Aromatics.tsv, 4_D_Biosurfactants.tsv, and 4_E_Plastics.tsv
 
 
-### Obtaining the HADEG plots
+### B. Obtaining the HADEG plots
 
 NOTE: Under update process.
 
