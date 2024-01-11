@@ -55,6 +55,7 @@ Differente versions of the "3_table_HADEG_final.tsv", depending on the "Compound
 ```sh
 Rscript 2_generate_HADEG_plots.R
 ```
+8- Change the colors, the plot and font sizes if you need it. Now enjoy your results.
 
 
 ## Description of this GitHub repository
