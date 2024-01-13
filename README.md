@@ -59,7 +59,7 @@ Rscript 2_generate_HADEG_plots.R
 
 ## Example
 
-You can download a trial TSV file from the *Example* directory and run the scripts described above. Besides the output tables, you will obtain plots like these:
+You can download a trial TSV file from the *Example* directory and run the scripts described above. Besides the output tables, you will obtain plots like these with the number of hits predicted in each genome:
 
 **HEATMAP**
 
