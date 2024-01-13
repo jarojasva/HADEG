@@ -57,6 +57,17 @@ Rscript 2_generate_HADEG_plots.R
 ```
 8- Change the colors, the plot and font sizes if you need it. Now enjoy your results.
 
+## Example
+
+You can download a trial TSV file from the *Example* directory and run the scripts described above. Besides the output tables, you will obtain plots like these:
+
+**HEATMAP**
+
+![HADEG](./Heatmap_Genes_HADEG.png) 
+
+**BUBBLE PLOT**
+
+![HADEG](./Bubbles_Genes_HADEG.png) 
 
 ## Description of this GitHub repository
 
