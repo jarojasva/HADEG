@@ -27,7 +27,7 @@ The Hydrocarbon Aerobic Degradation Enzymes and Genes (HADEG) is a manually cura
 ```sh
 proteinortho Directory_with_proteomes/*.faa -identity=50 -conn=0.3 -project=Results_HADEG
 ```
-5- Download the **Script** directory and put your there Results_HADEG.tsv file obtained with Proteinortho. **NOTE**: do not change the ".faa" part of the proteomes names in your .tsv Proteinortho file.
+5- Download the **Script** directory and put your there Results_HADEG.proteinortho.tsv file obtained with Proteinortho. **NOTE**: do not change the ".faa" part of the proteomes names in your .tsv Proteinortho file.
 
 6- Run the *1_extract_HADEG_tables* script in your terminal or RStudio:
 ```sh
