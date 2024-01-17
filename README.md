@@ -55,7 +55,7 @@ Differente versions of the **3_table_HADEG_final.tsv**, depending on the "Compou
 ```sh
 Rscript 2_generate_HADEG_plots.R
 ```
-8- Change the colors, the plot and font sizes if you need it. Now enjoy your results.
+8- Change the colors, the plot and font sizes, or the script if you need it. Now enjoy your results.
 
 ## Example
 
