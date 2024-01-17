@@ -19,9 +19,9 @@ The Hydrocarbon Aerobic Degradation Enzymes and Genes (HADEG) is a manually cura
 
 1- Install Proteinortho software in your computer or server (https://anaconda.org/bioconda/proteinortho).
 
-2- Annotate your genome(s) using your preferred annotation software and save the resulting .faa file(s) in a designated directory.
+2- Annotate your genome(s) or assembled metagenome(s) using your preferred annotation software and save the resulting .faa file(s) in a designated directory.
 
-3- Download the "HADEG_protein_database_231119.faa" and place it in the same directory.
+3- Download the "HADEG_protein_database_231119.faa" and place it in the directory of your .faa file(s).
 
 4- Execute Proteinortho, comparing your .faa file(s) with the HADEG database: 
 ```sh
@@ -46,7 +46,7 @@ This script will generate the following output tables:
 
 *SPECIFIC TABLES*
 
-Differente versions of the "3_table_HADEG_final.tsv", depending on the "Compounds" found in your genomes: 4_A_Alkanes.tsv, 4_B_Alkenes.tsv, 4_C_Aromatics.tsv, 4_D_Biosurfactants.tsv, and 4_E_Plastics.tsv
+Differente versions of the **3_table_HADEG_final.tsv**, depending on the "Compounds" found in your genomes: 4_A_Alkanes.tsv, 4_B_Alkenes.tsv, 4_C_Aromatics.tsv, 4_D_Biosurfactants.tsv, and 4_E_Plastics.tsv
 
 
 ### B. Generating the HADEG plots
