@@ -37,11 +37,11 @@ This script will generate the following output tables:
 
 *GENERAL TABLES*
 
-1_table_HADEG_codes.tsv : tabla con los códigos de las proteínas de tus .faa files ortólogas a las secuencias de proteínas de HADEG database.
+**1_table_HADEG_codes.tsv**: Table with the protein codes from your .faa files that are orthologous to the protein sequences in the HADEG database. This table will allow you to search for protein sequences in your .faa files for more advanced analyses.
 
-2_table_HADEG_counts.tsv : tabla con el número de proteínas de tus .faa files ortólogas a las secuencias de HADEG.
+**2_table_HADEG_counts.tsv**: Table with the number of proteins from your .faa files that are orthologous to the sequences in HADEG. You can review in detail the number of hits against the HADEG sequences.
 
-3_table_HADEG_final.tsv : tabla with the summarized counts of each type of HADEG proteins, including the Mechanism, Compounds, Pathways, Subpathways, and Gene names.
+**3_table_HADEG_final.tsv**: Table with the summarized counts of each type of HADEG genes, including the Mechanism, Compounds, Pathways, Subpathways, and Gene names. This table will be used to obtain the HADEG plots.
 
 
 *SPECIFIC TABLES*
