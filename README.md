@@ -41,12 +41,12 @@ This script will generate the following output tables:
 
 **2_table_HADEG_counts.tsv**: Table with the number of proteins from your .faa files that are orthologous to the sequences in HADEG. You can review in detail the number of hits against the HADEG sequences.
 
-**3_table_HADEG_final.tsv**: Table with the summarized counts of each type of HADEG genes, including the Mechanism, Compounds, Pathways, Subpathways, and Gene names. This table will be used to obtain the HADEG plots.
+**3_table_HADEG_final.tsv**: Table with the summarized counts of each type of HADEG genes, including the Mechanism, Compounds, Pathways, Subpathways, and Gene names.
 
 
 *SPECIFIC TABLES*
 
-Differente versions of the **3_table_HADEG_final.tsv**, depending on the "Compounds" found in your genomes/metagenomes: 4_A_Alkanes.tsv, 4_B_Alkenes.tsv, 4_C_Aromatics.tsv, 4_D_Biosurfactants.tsv, and/or 4_E_Plastics.tsv
+Differente versions of the **3_table_HADEG_final.tsv**, depending on the "Compounds" found in your genomes/metagenomes: 4_A_Alkanes.tsv, 4_B_Alkenes.tsv, 4_C_Aromatics.tsv, 4_D_Biosurfactants.tsv, and/or 4_E_Plastics.tsv. These tables will be used to obtain the HADEG plots.
 
 
 ### B. Generating the HADEG plots
