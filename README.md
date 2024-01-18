@@ -26,7 +26,7 @@ proteinortho Directory_with_proteomes/*.faa -identity=50 -conn=0.3 -project=Resu
 ```
 5- Download the **Script** directory and put there your Results_HADEG.proteinortho.tsv file obtained with Proteinortho. **NOTE**: do not change the ".faa" part of the proteomes names in your .tsv Proteinortho file.
 
-6- Run the *HADEG* script in your terminal or RStudio:
+6- Run the *HADEG* script in your terminal or RStudio (https://posit.co/download/rstudio-desktop/#download):
 ```sh
 Rscript HADEG.R
 ```
