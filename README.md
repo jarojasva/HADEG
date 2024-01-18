@@ -24,7 +24,7 @@ The Hydrocarbon Aerobic Degradation Enzymes and Genes (HADEG) is a manually cura
 ```sh
 proteinortho Directory_with_proteomes/*.faa -identity=50 -conn=0.3 -project=Results_HADEG
 ```
-**NOTE**: Using these parameters (-identity=50 and -conn=0.3) you will get 20.80% of false-negative hits and 94.68% of true-positive hits as described in the HADEG published article (https://www.sciencedirect.com/science/article/abs/pii/S1476927123001573?via%3Dihub).
+**NOTE**: Using these parameters (-identity=50 and -conn=0.3) you could get 20.80% of false-negative hits and 94.68% of true-positive hits as described in the HADEG published article (https://www.sciencedirect.com/science/article/abs/pii/S1476927123001573?via%3Dihub).
 
 5- Download the **Script** directory and put there your Results_HADEG.proteinortho.tsv file obtained with Proteinortho. **NOTE**: do not change the ".faa" part of the proteomes names in your .tsv Proteinortho file.
 
