@@ -14,9 +14,6 @@ The Hydrocarbon Aerobic Degradation Enzymes and Genes (HADEG) is a manually cura
 
 ## Recommended immplementation
 
-
-### A. Extracting the HADEG tables
-
 1- Install Proteinortho software in your computer or server (https://anaconda.org/bioconda/proteinortho).
 
 2- Annotate your genome(s) or assembled metagenome(s) using your preferred annotation software and save the resulting .faa file(s) in a designated directory.
@@ -29,11 +26,11 @@ proteinortho Directory_with_proteomes/*.faa -identity=50 -conn=0.3 -project=Resu
 ```
 5- Download the **Script** directory and put there your Results_HADEG.proteinortho.tsv file obtained with Proteinortho. **NOTE**: do not change the ".faa" part of the proteomes names in your .tsv Proteinortho file.
 
-6- Run the *1_extract_HADEG_tables* script in your terminal or RStudio:
+6- Run the *HADEG* script in your terminal or RStudio:
 ```sh
-Rscript 1_extract_HADEG_tables.R
+Rscript HADEG.R
 ```
-This script will generate the following output tables:
+This script will generate the following outputs:
 
 *GENERAL TABLES*
 
@@ -48,18 +45,17 @@ This script will generate the following output tables:
 
 Differente versions of the **3_table_HADEG_final.tsv**, depending on the "Compounds" found in your genomes/metagenomes: 4_A_Alkanes.tsv, 4_B_Alkenes.tsv, 4_C_Aromatics.tsv, 4_D_Biosurfactants.tsv, and/or 4_E_Plastics.tsv. These tables will be used to obtain the HADEG plots.
 
+*HADEG PLOTS*
 
-### B. Generating the HADEG plots
+**Heatmap_Genes_HADEG.svg**: heatmap with the genes and the number of hits identified in your .faa files.
 
-7- Run *2_generate_HADEG_plots* script in the same directory to generate SVG files of HADEG heatmap and bubble plots:
-```sh
-Rscript 2_generate_HADEG_plots.R
-```
-8- Change the colors, the plot and font sizes, or the script if you need it. Now enjoy your results.
+**Bubbles_Subpathways_HADEG.svg**: bubble plot with the subpathways and the number of hits identified in your .faa files.
+
+7- Change the colors, the plot and font sizes, or the script if you need it. Now enjoy your results.
 
 ## Example
 
-You can download a trial TSV file from the *Example* directory and run the scripts described above. Besides the output tables, you will obtain plots like these with the number of hits predicted in each genome:
+You can download a trial TSV file from the *Example* directory and run the HADEG R script described above. Besides the output tables, you will obtain plots like these with the number of hits predicted in each genome:
 
 **HEATMAP**
 
@@ -67,7 +63,7 @@ You can download a trial TSV file from the *Example* directory and run the scrip
 
 **BUBBLE PLOT**
 
-![HADEG](./Bubbles_Genes_HADEG.png) 
+![HADEG](./Bubbles_Subpathways_HADEG.png) 
 
 ## Description of this GitHub repository
 
