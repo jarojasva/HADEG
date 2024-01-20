@@ -40,22 +40,22 @@ This script will generate the following `outputs`:
 
 > *GENERAL TABLES*
 
-**1_table_HADEG_codes.tsv**: Table with the protein codes from your .faa files that are orthologous to the protein sequences in the HADEG database. This table will allow you to search for protein sequences in your .faa files for more advanced analyses.
+:ballot_box_with_check: **1_table_HADEG_codes.tsv**: Table with the protein codes from your .faa files that are orthologous to the protein sequences in the HADEG database. This table will allow you to search for protein sequences in your .faa files for more advanced analyses.
 
-**2_table_HADEG_counts.tsv**: Table with the number of proteins from your .faa files that are orthologous to the sequences in HADEG. You can review in detail the number of hits against the HADEG sequences.
+:ballot_box_with_check: **2_table_HADEG_counts.tsv**: Table with the number of proteins from your .faa files that are orthologous to the sequences in HADEG. You can review in detail the number of hits against the HADEG sequences.
 
-**3_table_HADEG_final.tsv**: Table with the summarized counts of each type of HADEG genes, including the Mechanism, Compounds, Pathways, Subpathways, and Gene names.
+:ballot_box_with_check: **3_table_HADEG_final.tsv**: Table with the summarized counts of each type of HADEG genes, including the Mechanism, Compounds, Pathways, Subpathways, and Gene names.
 
 
 > *SPECIFIC TABLES*
 
-Differente versions of the **3_table_HADEG_final.tsv**, depending on the "Compounds" found in your genomes/metagenomes: 4_A_Alkanes.tsv, 4_B_Alkenes.tsv, 4_C_Aromatics.tsv, 4_D_Biosurfactants.tsv, and/or 4_E_Plastics.tsv. These tables will be used to obtain the HADEG plots.
+:ballot_box_with_check: Differente versions of the **3_table_HADEG_final.tsv**, depending on the "Compounds" found in your genomes/metagenomes: 4_A_Alkanes.tsv, 4_B_Alkenes.tsv, 4_C_Aromatics.tsv, 4_D_Biosurfactants.tsv, and/or 4_E_Plastics.tsv. These tables will be used to obtain the HADEG plots.
 
 > *HADEG PLOTS*
 
-**Heatmap_Genes_HADEG.svg**: heatmap with the genes and the number of hits identified in your .faa files.
+:ballot_box_with_check: **Heatmap_Genes_HADEG.svg**: heatmap with the genes and the number of hits identified in your .faa files.
 
-**Bubbles_Subpathways_HADEG.svg**: bubble plot with the subpathways and the number of hits identified in your .faa files.
+:ballot_box_with_check: **Bubbles_Subpathways_HADEG.svg**: bubble plot with the subpathways and the number of hits identified in your .faa files.
 
 7- Change the colors, the plot and font sizes, or the script if you need it. Now enjoy your results.
 
