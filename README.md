@@ -118,4 +118,4 @@ Contains tables with degradation pathways, biodegradation production, and protei
 ## Citation
 
 Rojas-Vargas, J, Castelán-Sánchez, HG, Pardo-López, L (2023) HADEG: A curated hydrocarbon aerobic degradation enzymes and genes database. Computational Biology and Chemistry. DOI 10.1016/j.compbiolchem.2023.107966
-[Science Direct](https://www.sciencedirect.com/science/article/abs/pii/S1476927123001573?via%3Dihub)
+[ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S1476927123001573?via%3Dihub)
