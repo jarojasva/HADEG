@@ -14,7 +14,7 @@ The Hydrocarbon Aerobic Degradation Enzymes and Genes (`HADEG`) is a manually cu
 
 The first version described in the published article ([link](https://www.sciencedirect.com/science/article/abs/pii/S1476927123001573?via%3Dihub)) had 259 proteins for hydrocarbon (HC) degradation, 160 for plastic degradation, and 32 for biosurfactant production (September, 2023). The updated database has 402 for HC degradation, 191 for plastic degradation, and 36 for biosurfactant production (November, 2023). 
 
-**HADEG database is updated regularly**. `#0969DA`
+`**HADEG database is updated regularly**`
 
 ## Recommended immplementation
 
