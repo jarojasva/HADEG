@@ -14,7 +14,7 @@ The Hydrocarbon Aerobic Degradation Enzymes and Genes (`HADEG`) is a manually cu
 
 ## Recommended immplementation
 
-1- Install Proteinortho software in your computer or server (https://anaconda.org/bioconda/proteinortho).
+1- Install [Proteinortho](https://anaconda.org/bioconda/proteinortho) software in your computer or server.
 
 2- Annotate your genome(s) or assembled metagenome(s) using your preferred annotation software and save the resulting .faa file(s) in a designated directory.
 
@@ -28,7 +28,7 @@ proteinortho Directory_with_proteomes/*.faa -identity=50 -conn=0.3 -project=Resu
 
 5- Download the **Script** directory and put there your Results_HADEG.proteinortho.tsv file obtained with Proteinortho. **NOTE**: do not change the ".faa" part of the proteomes names in your .tsv Proteinortho file.
 
-6- Run the *HADEG* script in your terminal or RStudio (https://posit.co/download/rstudio-desktop/#download):
+6- Run the *HADEG* script in your terminal or [RStudio](https://posit.co/download/rstudio-desktop/#download):
 ```sh
 Rscript HADEG.R
 ```
