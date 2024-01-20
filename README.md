@@ -32,9 +32,9 @@ proteinortho Directory_with_proteomes/*.faa -identity=50 -conn=0.3 -project=Resu
 ```sh
 Rscript HADEG.R
 ```
-This script will generate the following outputs:
+This script will generate the following `outputs`:
 
-*GENERAL TABLES*
+> *GENERAL TABLES*
 
 **1_table_HADEG_codes.tsv**: Table with the protein codes from your .faa files that are orthologous to the protein sequences in the HADEG database. This table will allow you to search for protein sequences in your .faa files for more advanced analyses.
 
@@ -43,11 +43,11 @@ This script will generate the following outputs:
 **3_table_HADEG_final.tsv**: Table with the summarized counts of each type of HADEG genes, including the Mechanism, Compounds, Pathways, Subpathways, and Gene names.
 
 
-*SPECIFIC TABLES*
+> *SPECIFIC TABLES*
 
 Differente versions of the **3_table_HADEG_final.tsv**, depending on the "Compounds" found in your genomes/metagenomes: 4_A_Alkanes.tsv, 4_B_Alkenes.tsv, 4_C_Aromatics.tsv, 4_D_Biosurfactants.tsv, and/or 4_E_Plastics.tsv. These tables will be used to obtain the HADEG plots.
 
-*HADEG PLOTS*
+> *HADEG PLOTS*
 
 **Heatmap_Genes_HADEG.svg**: heatmap with the genes and the number of hits identified in your .faa files.
 
