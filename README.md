@@ -9,9 +9,9 @@ Jorge Rojas-Vargas<sup>1</sup>, Hugo G. Castelán-Sánchez<sup>2</sup>, Liliana 
 <sup>2</sup>Programa de Investigadoras e Investigadores por México. Grupo de Genómica y Dinámica Evolutiva de Microorganismos Emergentes. Consejo Nacional de Ciencia y Tecnología. Av. Insurgentes Sur 1582, Crédito Constructor, Benito Juárez, CP 03940, Ciudad de México, México.
 
 - [Description](#Description)
-- [Recommended immplementation](#Recommended immplementation)
+- [Recommended immplementation](#Recommended-immplementation)
 - [Example](#Example)
-- [Description of this GitHub repository](#Description of this GitHub repository)
+- [Description of this GitHub repository](#Description-of-this-GitHub-repository)
 
 
 ## Description
