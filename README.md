@@ -28,9 +28,12 @@ The first version described in the published article ([link](https://www.science
 ```sh
 proteinortho Directory_with_proteomes/*.faa -identity=50 -conn=0.3 -project=Results_HADEG
 ```
-**NOTE**: Using these parameters (-identity=50 and -conn=0.3) you could get 20.80% of false-negative hits and 94.68% of true-positive hits as described in the [HADEG](https://www.sciencedirect.com/science/article/abs/pii/S1476927123001573?via%3Dihub) published article.
+> [!NOTE]
+> Using these parameters (-identity=50 and -conn=0.3) you could get 20.80% of false-negative hits and 94.68% of true-positive hits as described in the [HADEG](https://www.sciencedirect.com/science/article/abs/pii/S1476927123001573?via%3Dihub) published article.
 
-5- Download the **Script** directory and put there your Results_HADEG.proteinortho.tsv file obtained with Proteinortho. **NOTE**: do not change the ".faa" part of the proteomes names in your .tsv Proteinortho file.
+5- Download the **Script** directory and put there your Results_HADEG.proteinortho.tsv file obtained with Proteinortho. 
+> [!IMPORTANT]
+> Do not change the ".faa" part of the proteomes names in your .tsv Proteinortho file.
 
 6- Run the *HADEG* script in your terminal or [RStudio](https://posit.co/download/rstudio-desktop/#download):
 ```sh
