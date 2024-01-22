@@ -114,6 +114,11 @@ Contains tables with degradation pathways, biodegradation production, and protei
 - 6_Protein_domains_of_HADEG_proteins
 - 7_All_pathways
 
+## Pfams network
+
+In this new version of HADEG, the number of Pfam domains increased from 166 to 184 (link to the table). The updated network analysis reveals that the Aromatic degradation protein group now contains 96 Pfams, the Plastic group 49, the Alkane group 32, the Alkene group 18, and the Biosurfactant production group 27.
+
+![HADEG](./pfams_network2.png) 
 
 ## Citation
 
