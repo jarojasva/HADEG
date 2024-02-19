@@ -114,6 +114,7 @@ Contains tables with degradation pathways, biodegradation production, and protei
 - 5_Biosurfactant_production_genes
 - 6_Protein_domains_of_HADEG_proteins
 - 7_All_pathways
+- 8_Matrix_pfams_only
 
 ## Pfams network
 
