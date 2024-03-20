@@ -48,13 +48,7 @@ Rscript HADEG.R
 ```
 > [!NOTE]
 > Confirm that you have the following R packages installed before running the HADEG script:
-> library(stringr)
-> library(dplyr)
-> library(readr)
-> library(scales)
-> library(svglite)
-> library(ggplot2)
-> library(reshape)
+> library(stringr), library(dplyr), library(readr), library(scales), library(svglite), library(ggplot2), library(reshape)
 
 This script will generate the following `outputs`:
 
